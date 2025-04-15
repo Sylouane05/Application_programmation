@@ -1,0 +1,24 @@
+--------Usagers--------
+ID: 0
+ Nom: hatake
+ Prenom: kakashi
+ Type: enseignant
+ Distance domicile-ecole en Km: 23.000000
+ Modalite de transport en pourcentage: A pied: 20.000000 Velo: 20.000000 Velo electrique: 10.000000 Bus: 12.000000 Voiture: 38.000000
+ Modalite de repas en pourcentage: Vegetarien: 2.000000 Poisson: 10.000000 Poulet: 30.000002 Boeuf: 58.000000
+ --------Usagers--------
+ID: 0
+ Nom: uzumaki
+ Prenom: naruto
+ Type: etudiant
+ Distance domicile-ecole en Km:  2
+ Modalite de transport en pourcentage: A pied: 20 Velo: 30 Velo electrique: 10 Bus: 30 Voiture: 10
+ Modalite de repas en pourcentage: Vegetarien:  9 Poisson: 20 Poulet: 40 Boeuf: 31
+ ID: 1
+ Nom: kurosaki
+ Prenom: ichigo
+ Type: etudiant
+ Distance domicile-ecole en Km: 12
+ Modalite de transport en pourcentage: A pied: 20 Velo: 10 Velo electrique: 30 Bus:  3 Voiture: 37
+ Modalite de repas en pourcentage: Vegetarien: 10 Poisson:  9 Poulet: 20 Boeuf: 61
+ 
