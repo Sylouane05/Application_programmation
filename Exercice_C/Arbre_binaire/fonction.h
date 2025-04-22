@@ -1,5 +1,6 @@
 #ifndef __FONCTION__H__
 #define __FONCTION__H__
+#include <stdio.h>
 
 typedef struct tnoeud { 
     char nomCommune[32]; 
@@ -12,5 +13,7 @@ typedef struct tnoeud {
 
 
     void menu();
+    FILE * fOuvrirFichier(char  *nomfic);
+    int fCreerEnregistrement(FILE * f);
 
 #endif
