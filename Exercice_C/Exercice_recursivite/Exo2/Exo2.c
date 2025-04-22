@@ -9,17 +9,15 @@ int main(){
 
     while(1){
         int choix;
-        printf("Menu :\n");
-        printf("1. Saisir une facture\n");
-        printf("2. Afficher la liste des factures\n");
-        printf("3. Afficher le numero de la facture en regle la plus petite\n");
-        printf("4. Supprimer une facture\n");
-        printf("5. Calculer la penalite\n");
-        printf("6. Quitter\n");
+        menu();
         printf("Choix : ");
         scanf("%d", &choix);
         system("cls"); // clear the console
         switch(choix){
+            case 0:{
+                liberer_liste(T);
+                return 0;
+            }
             case 1:{
                 T_NOEUD *N = creer_noeud();
                 T = inserer_noeud(T, N);
@@ -40,19 +38,15 @@ int main(){
                 break;
             }
             case 4:{
+                penalite(T);
+                break;
+            }
+            case 5:{
                 int num;
                 printf("Entrez le numero de la facture a supprimer : ");
                 scanf("%d", &num);
                 T = supprimer_noeud(T, num);
                 break;
-            }
-            case 5:{
-                penalite(T);
-                break;
-            }
-            case 6:{
-                liberer_liste(T);
-                return 0;
             }
             default:{
                 printf("Choix invalide.\n");
