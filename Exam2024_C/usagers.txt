@@ -21,4 +21,12 @@ ID: 0
  Distance domicile-ecole en Km: 12
  Modalite de transport en pourcentage: A pied: 20 Velo: 10 Velo electrique: 30 Bus:  3 Voiture: 37
  Modalite de repas en pourcentage: Vegetarien: 10 Poisson:  9 Poulet: 20 Boeuf: 61
+ --------Usagers--------
+ID: 0
+ Nom: moulin
+ Prenom: jean
+ Type: enseignant
+ Distance domicile-ecole en Km: 20
+ Modalite de transport en pourcentage: A pied: 20 Velo: 40 Velo electrique: 10 Bus: 10 Voiture: 20
+ Modalite de repas en pourcentage: Vegetarien: 50 Poisson:  1 Poulet: 30 Boeuf: 19
  
